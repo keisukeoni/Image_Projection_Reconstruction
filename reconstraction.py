@@ -2,6 +2,7 @@
 from PIL import Image
 import numpy as np
 
+#Python2
 #グレースケール
 #サイノグラムを読み込んでNumpy配列に変換
 sinogramImg = Image.open('sinogram.bmp')

@@ -3,6 +3,7 @@ from PIL import Image
 import numpy as np
 import math
 
+#Python2
 #グレースケール専用
 #画像を読み込む
 img = Image.open('target.bmp')

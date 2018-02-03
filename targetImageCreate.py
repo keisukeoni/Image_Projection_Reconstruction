@@ -2,6 +2,7 @@
 from PIL import Image
 from PIL import ImageDraw
 
+#Python2
 #画像を作成(グレースケール)
 width = 256
 height = 256
