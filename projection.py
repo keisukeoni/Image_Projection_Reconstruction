@@ -25,7 +25,7 @@ img2 = Image.new('L', (newImgSize, newImgSize), 0)
 img2.paste(img, (pasteLocationWidth, pasteLocationHeight))
 
 sinogramImg = []
-#0.5度ずつ720回回転
+#0.25度ずつ720回回転
 for i in range(720):
 	imgTmp = img2.rotate(i/4)
 	imgArray = np.asarray(imgTmp)
