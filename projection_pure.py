@@ -34,7 +34,7 @@ for i in range(720):
 		imgArraySum = 0
 		for k in range(newImgSize):
 			imgArraySum += imgArray[k][j]
-		imgArraySum = int(imgArraySum / newImgSize)
+		#imgArraySum = int(imgArraySum / newImgSize)
 		imgArraySum = int(imgArraySum / originalHeight)
 		sinogramImgTmp.append(imgArraySum)
 	sinogramImg.append(sinogramImgTmp)
